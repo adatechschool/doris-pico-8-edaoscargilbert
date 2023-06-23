@@ -6,7 +6,6 @@ __lua__
 
 function _init()
 	create_player()
-	init_msg()
 	
 	
 end
@@ -109,16 +108,9 @@ function draw_player()
 	spr(p.sprite,p.x*8+p.ox,p.y*8+p.oy,1,1,p.flip)
 end
 -->8
---messages
 
-function init_msg()
- message{}
-end
 
-create_msg("bonjour")
 
-function create_msg(name,...)
- msg_title
 __gfx__
 00000000f98999fff98999ff00000000111f7111111011111111155555511111ff6665fffff8ffffff666766fff11fff00000000002220000000000000000000
 00000000f891419ff891419f0000000011f77711110201111115555556677111f66665fffff88fffff666766ff1331ff000ff0000021f0000000000000000000
