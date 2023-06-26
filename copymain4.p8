@@ -53,7 +53,7 @@ end
 --offset position de decalage a 0 mais quand deplacement vers la d on decale de 8 px vers la g
 function create_player()
  p={
-  x=24,y=57,
+  x=24,y=58,
   ox=0,oy=0,
   start_ox=0,start_oy=0,
   anim_t=0, --1 qd lanim offset start 
